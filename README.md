@@ -1,6 +1,6 @@
 # ![Tile Run Instances icon](documentation/tile_run_instances_icon.png) Tile Run Instances for Godot Game Engine
 Tiles multiple instances of the game nicely across your monitor.
-Helpful for testing multiplayer Godot games! Tested with Godot 4.5.1.
+Helpful for testing multiplayer Godot games! Tested with Godot 4.0 and Godot 4.5.1.
 
 ![Nice tiling of multiple run instances.](documentation/sample_usage.gif)
 
