@@ -6,7 +6,7 @@ Helpful for testing multiplayer Godot games! Tested with Godot 4.5.1.
 
 ## Features
 - By default Godot stacks multiple game windows on top of each other. This addon lets you press play and instantly see all windows, lined up in a grid.
-- Need your windows to show up on a different monitor? Edit the `target_monitor` variable of tile_run_instances_global.gd
+- Need your windows to show up on a different monitor? Edit the `target_monitor` variable of tile_run_instances_global.gd.
 
 ## Setup and Installation
 1. Clone this repo
@@ -14,13 +14,13 @@ Helpful for testing multiplayer Godot games! Tested with Godot 4.5.1.
 3. Under the Game tab, press the three dots and disable "Embed Game on Next Play".
 ![Disable Embed Game on Next Play.](documentation/disable_embedded_game_window.png)
 
-4. Enable tile-run-instances in the Project Settings > Plugins tab
+4. Enable tile-run-instances in the Project Settings > Plugins tab.
 ![Enable the tile-run-instances plugin.](documentation/enable_plugin.png)
 
-5. Add TileRunInstancesGlobal as a Global Autoload in Project Settings > Globals
+5. Add TileRunInstancesGlobal as a Global Autoload in Project Settings > Globals.
 ![Add TileRunInstancesGlobal as an autoload.](documentation/add_global_autoload.png)
 
-6. Enable multiple instances in Debug > Customize Run Instances
+6. Enable multiple instances in Debug > Customize Run Instances.
 ![Enable and add multiple instances.](documentation/customize_run_instances.png)
 
 
@@ -28,4 +28,4 @@ Helpful for testing multiplayer Godot games! Tested with Godot 4.5.1.
 - Travh98 - Gamedev, Software Engineer. [🎮Itch.io page](https://travh98.itch.io/)
 
 ## Acknowledgments
-- Inspired by Mr.Cdk's original tile-instances plugin
+- Inspired by Mr.Cdk's original tile-instances plugin.
