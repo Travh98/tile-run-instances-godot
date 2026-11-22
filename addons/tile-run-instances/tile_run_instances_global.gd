@@ -12,6 +12,10 @@ extends Node
 
 
 func _ready() -> void:
+	var enabled: PackedStringArray = ProjectSettings.get_setting("editor_plugins/enabled", PackedStringArray())
+	if "res://addons/tile-run-instances/plugin.cfg" not in enabled:
+		return
+
 	# Subscribe to debugger messages
 	EngineDebugger.register_message_capture("tile-run-instances", _on_tile_instances)
 	EngineDebugger.send_message.call_deferred("tile-run-instances:get_id", [])

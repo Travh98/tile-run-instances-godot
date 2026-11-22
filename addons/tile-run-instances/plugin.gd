@@ -5,6 +5,9 @@ var tile_instances = preload("res://addons/tile-run-instances/tile_run_instances
 
 func _enter_tree():
 		add_debugger_plugin(tile_instances)
+		if not ProjectSettings.has_setting("autoload/TileRunInstances"):
+			add_autoload_singleton("TileRunInstances", "res://addons/tile-run-instances/tile_run_instances_global.gd")
+
 
 func _exit_tree():
 		remove_debugger_plugin(tile_instances)
